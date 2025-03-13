@@ -59,4 +59,4 @@ jobs:
       # Step 7: Notify failure (optional)
       - name: Notify on failure
         if: failure()
-        run: echo "❌ Code quality check failed!" && exit 1
+        run: echo " Code quality check failed!" && exit 1
